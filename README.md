@@ -1,7 +1,7 @@
 # Libft
 
 Libft is the first project from 42Yerevan curriculum.
-Here you have to write your own library, called libft.a in a C programming language.
+Here you have to write your own library, called libft.a, using C programming language.
 
 The list of the functions:
 
