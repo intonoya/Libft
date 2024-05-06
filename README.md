@@ -1,7 +1,7 @@
 # Libft
 
 Libft is the first project from 42Yerevan curriculum.
-Here you have to write your own library, called libft.a on a C programming language.
+Here you have to write your own library, called libft.a in a C programming language.
 
 The list of the functions:
 
@@ -29,13 +29,13 @@ The list of the functions:
                     The terminating NULL character is considered to be part of the string;
 17. ft_strncmp:     Returns an integer less than, equal to, or greater than zero if s1 is found, respectively, 
                     to be less than, to match, or be greater than s2;
-18. ft_memchr:      Scans the initial bytes of the memory area pointed to for the first instance of second argument;
+18. ft_memchr:      Scans the initial bytes of the memory area pointed to for the first instance of the second argument;
 19. ft_memcmp:      Compares the first n bytes (each interpreted as unsigned char) of the memory areas s1 and s2;
 20. ft_strnstr:     Locates the first occurrence of the NULL-terminated string 1 in the NULL-terminated string 2;
 21. ft_atoi:        Converts the initial portion of the string pointed to by the argument to int;
 22. ft_calloc:      Allocates unused space for an array of size_t elements each of whose size in bytes is 
                     the second argument.  The space shall be initialized to all bits 0;
-23. ft_strdup:      Returns a pointer to a new string which is a duplicate of the second string.
+23. ft_strdup:      Returns a pointer to a new string, duplicating the second string.
                     Memory for the new string is obtained with malloc(3), and can be freed with free(3);
 24. ft_substr:      Allocates (with malloc(3)) and returns a substring from the string.
                     The substring begins at index ’start’ and is of maximum size;
@@ -47,10 +47,10 @@ The list of the functions:
                     using the character as a delimiter. The array must end with a NULL pointer; 
 28. ft_itoa:        Allocates (with malloc(3)) and returns a string representing the integer received as an 
                     argument. Negative numbers must be handled;
-29. ft_strmapi:     Applies the function to each character of the string, and passing its index as first
+29. ft_strmapi:     Applies the function to each character of the string, and passes its index as the first
                     argument to create a new string (with malloc(3)) resulting from successive applications of;
-30. ft_striteri:    Applies the function on each character of the string passed as argument, 
-                    passing its index as first argument. Each character is passed by address to function 
+30. ft_striteri:    Applies the function on each character of the string passed as an argument, 
+                    passing its index as the first argument. Each character is passed by address to function 
                     to be modified if necessary;
 31. ft_putchar_fd:  Outputs the character to the given file descriptor;
 32. ft_putstr_fd:   Outputs the string to the given file descriptor;
@@ -59,7 +59,7 @@ The list of the functions:
 35. ft_lstnew:      Allocates (with malloc(3)) and returns a new node.
                     The member variable is initialized with the value of 
                     the next parameter. The variable is initialized to NULL;
-36. ft_lstadd_front:Adds the node ’new’ at the beginning of the list;
+36. ft_lstadd_front: Adds the node ’new’ at the beginning of the list;
 37. ft_lstsize:     Counts the number of nodes in a list; 
 38. ft_lstlast:     Returns the last node of the list;  
 39. ft_lstadd_back: Adds the node at the end of the list;
@@ -70,6 +70,6 @@ The list of the functions:
                     the function and free(3). Finally, the pointer to the list must be set to NULL;
 42. ft_lstiter:     Iterates the list and applies the function on the content of each node;
 43. ft_lstmap:      Iterates the list and applies the function on the content of each node.
-                    Creates a new list resulting of the successive applications ofthe 
+                    Creates a new list resulting in the successive applications of the 
                     function. The other function is used to delete the content of a node if 
                     needed.
