@@ -18,31 +18,38 @@ CFLAGS		= -Wall -Wextra -Werror
 
 RM			= rm -f
 
-SRCS		= $(wildcard *.c)
+SRCS		= $(wildcard src/*.c)
 
-BONSRCS		= $(wildcard ft_lst*.c)
+BONSRCS		= $(wildcard src/ft_lst*.c)
 
-OBJS		= $(SRCS:.c=.o)
+OBJ_DIR		= obj
 
-BONOBJS		= $(BONSRCS:.c=.o)
+OBJS		= $(addprefix $(OBJ_DIR)/, $(SRCS:.c=.o))
 
-%.o:%.c
-			$(CC) $(CFLAGS) -c $< -o $@
+BONOBJS		= $(addprefix $(OBJ_DIR)/, $(BONSRCS:.c=.o))
 
 all:		$(NAME)
 
+$(OBJ_DIR)/%.o: %.c
+				@mkdir -p $(OBJ_DIR)/src
+				@mkdir -p $(OBJ_DIR)/src
+				@$(CC) $(CFLAGS) -o $@ -c $<
+
 $(NAME):	$(OBJS)
-			ar rcs $(NAME) $(OBJS)
+			@ar rcs $(NAME) $(OBJS)
+			@echo "\x1b[32m$(NAME) is compiled!\x1b[32m"
+
 
 bonus:		$(BONOBJS)
-			ar rcs $(NAME) $(BONOBJS)
+			@ar rcs $(NAME) $(BONOBJS)
 			
 clean:
-			$(RM) $(OBJS)
-			$(RM) $(BONOBJS)
+			@rm -rf $(OBJ_DIR)
+			@$(RM) $(OBJS)
+			@$(RM) $(BONOBJS)
 
-fclean:		clean
-			$(RM) $(NAME)
+fclean: clean
+			@$(RM) $(NAME)
 
 re:			fclean all
 

@@ -1,0 +1,153 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/Users/User/Desktop/Libft'
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_atoi.o -c src/ft_atoi.c
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_bzero.o -c src/ft_bzero.c
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_calloc.o -c src/ft_calloc.c
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_isalnum.o -c src/ft_isalnum.c
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_isalpha.o -c src/ft_isalpha.c
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_isascii.o -c src/ft_isascii.c
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_isdigit.o -c src/ft_isdigit.c
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_isprint.o -c src/ft_isprint.c
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_itoa.o -c src/ft_itoa.c
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_lstadd_back.o -c src/ft_lstadd_back.c
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_lstadd_front.o -c src/ft_lstadd_front.c
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_lstclear.o -c src/ft_lstclear.c
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_lstdelone.o -c src/ft_lstdelone.c
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_lstiter.o -c src/ft_lstiter.c
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_lstlast.o -c src/ft_lstlast.c
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_lstmap.o -c src/ft_lstmap.c
+ 
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_lstnew.o -c src/ft_lstnew.c
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_lstsize.o -c src/ft_lstsize.c
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_memchr.o -c src/ft_memchr.c
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_memcmp.o -c src/ft_memcmp.c
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_memcpy.o -c src/ft_memcpy.c
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_memmove.o -c src/ft_memmove.c
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_memset.o -c src/ft_memset.c
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_putchar_fd.o -c src/ft_putchar_fd.c
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_putendl_fd.o -c src/ft_putendl_fd.c
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_putnbr_fd.o -c src/ft_putnbr_fd.c
+ 
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_putstr_fd.o -c src/ft_putstr_fd.c
+ 
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_split.o -c src/ft_split.c
+ 
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_strchr.o -c src/ft_strchr.c
+ 
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_strdup.o -c src/ft_strdup.c
+ 
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_striteri.o -c src/ft_striteri.c
+ 
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_strjoin.o -c src/ft_strjoin.c
+ 
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_strlcat.o -c src/ft_strlcat.c
+ 
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_strlcpy.o -c src/ft_strlcpy.c
+ 
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_strlen.o -c src/ft_strlen.c
+ 
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_strmapi.o -c src/ft_strmapi.c
+ 
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_strncmp.o -c src/ft_strncmp.c
+ 
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_strnstr.o -c src/ft_strnstr.c
+ 
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_strrchr.o -c src/ft_strrchr.c
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_strtrim.o -c src/ft_strtrim.c
+ 
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_substr.o -c src/ft_substr.c
+ 
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_tolower.o -c src/ft_tolower.c
+ 
+mkdir -p obj/src
+mkdir -p obj/src
+cc -Wall -Wextra -Werror -o obj/src/ft_toupper.o -c src/ft_toupper.c
+ 
+ar rcs libft.a obj/src/ft_atoi.o obj/src/ft_bzero.o obj/src/ft_calloc.o obj/src/ft_isalnum.o obj/src/ft_isalpha.o obj/src/ft_isascii.o obj/src/ft_isdigit.o obj/src/ft_isprint.o obj/src/ft_itoa.o obj/src/ft_lstadd_back.o obj/src/ft_lstadd_front.o obj/src/ft_lstclear.o obj/src/ft_lstdelone.o obj/src/ft_lstiter.o obj/src/ft_lstlast.o obj/src/ft_lstmap.o obj/src/ft_lstnew.o obj/src/ft_lstsize.o obj/src/ft_memchr.o obj/src/ft_memcmp.o obj/src/ft_memcpy.o obj/src/ft_memmove.o obj/src/ft_memset.o obj/src/ft_putchar_fd.o obj/src/ft_putendl_fd.o obj/src/ft_putnbr_fd.o obj/src/ft_putstr_fd.o obj/src/ft_split.o obj/src/ft_strchr.o obj/src/ft_strdup.o obj/src/ft_striteri.o obj/src/ft_strjoin.o obj/src/ft_strlcat.o obj/src/ft_strlcpy.o obj/src/ft_strlen.o obj/src/ft_strmapi.o obj/src/ft_strncmp.o obj/src/ft_strnstr.o obj/src/ft_strrchr.o obj/src/ft_strtrim.o obj/src/ft_substr.o obj/src/ft_tolower.o obj/src/ft_toupper.o
+echo "\x1b[32mlibft.a is compiled!\x1b[32m"
+make: Leaving directory 'c:/Users/User/Desktop/Libft'
+ 
